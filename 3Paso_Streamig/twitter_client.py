@@ -8,10 +8,10 @@ from tweepy import OAuthHandler
 def get_twitter_auth():
 
     try:
-        consumer_key = "TWITTER_CONSUMER_KEY"
-        consumer_secret = "TWITTER_CONSUMER_SECRET"
-        access_token = "TWITTER_ACCESS_TOKEN"
-        access_secret = "TWITTER_ACCESS_SECRET"
+        consumer_key = 'TWITTER_CONSUMER_KEY'
+        consumer_secret = 'TWITTER_CONSUMER_SECRET'
+        access_token = 'TWITTER_ACCESS_TOKEN'
+        access_secret = 'TWITTER_ACCESS_SECRET'
     except KeyError:
         sys.stderr.write("TWITTER_* no se encuentra las llaves\n")
         sys.exit(1)    
